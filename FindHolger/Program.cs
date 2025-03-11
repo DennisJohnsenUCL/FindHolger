@@ -12,7 +12,7 @@
 				Random rnd = new();
 				List<char> alphabet = [];
 				alphabet.AddRange(Enumerable.Range((int)'a', 26).Select(x => Convert.ToChar(x)));
-				alphabet.AddRange(Enumerable.Range((int)'A' - 0, 26).Select(x => Convert.ToChar(x)));
+				alphabet.AddRange(Enumerable.Range((int)'A', 26).Select(x => Convert.ToChar(x)));
 				int size = 30;
 				int holgerY = rnd.Next(1, size + 1);
 				int holgerX = rnd.Next(1, size + 1);
